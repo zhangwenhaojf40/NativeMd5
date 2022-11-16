@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="获取Native签名"
+        android:id="@+id/btn_sign_md5_native"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="123"
+        android:id="@+id/tv_sign_md5_native"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="获取Java签名"
+        android:id="@+id/btn_sign_md5_java"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="123"
+        android:id="@+id/tv_sign_md5_java"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Md5加密——JAVA"
+        android:id="@+id/btn_md5_java_jia_mi"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_md5_java"
+        android:text="123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Md5加密——Native"
+        android:id="@+id/btn_md5_native_jia_mi"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_md5_Nava"
+        android:text="123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="获取最终结果"
+        android:id="@+id/btn_md5_result"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_md5_result"
+        android:text="123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="验证签名是否一致"
+        android:id="@+id/btn_check_result"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_md5_check_result"
+        android:text="123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
